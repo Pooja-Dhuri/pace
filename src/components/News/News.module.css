@@ -1,0 +1,11 @@
+.topheading{
+   /* font-size: 700px;
+   width: 200px;
+   background-color: cyan; */
+   border: 1px solid black;
+}
+.newsbox{
+    /* padding : 20px 100px 20px 100px; */
+    width: 80%;
+    margin-left: 120px;
+}
