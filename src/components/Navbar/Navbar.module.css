@@ -17,11 +17,15 @@
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+@media (max-width: 500px){
     .menulist{
         display: block;
     }
     /* .navbarlist{
         display: none;
     } */
+    .singlenews_content{
+       display: flex;
+       flex-direction: column;
+    }
   }

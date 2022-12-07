@@ -36,6 +36,7 @@ const News = () => {
           templateColumns="repeat(6, 1fr)"
           w="100%"
           gap={4}
+          className={style.singlenews_content}
         >
           <GridItem rowSpan={3} colSpan={3}className={style.topnewsbox}>
             <Box><Image  src="https://fdn.gsmarena.com/imgroot/news/22/12/apple-music-sing/-952x498w6/gsmarena_000.jpg" />
@@ -70,7 +71,7 @@ const News = () => {
         <h1 className={style.everything_heading}>Everything</h1>
         <hr className={style.horizontalline}/>
         <Grid templateRows="auto" 
-        templateColumns="repeat(3, 1fr)" gap="30px">
+        templateColumns="repeat(3, 1fr)" gap="30px"className={style.multienews_content}>
           {everything &&
             everything.map((ever) => (
               <GridItem borderRadius="15px" border="1px solid grey"padding={"20px"}>

@@ -53,3 +53,22 @@
     font-size: 14px;
 }
 
+
+@media (max-width: 500px){
+    /* .menulist{
+        display: block;
+    } */
+    /* .navbarlist{
+        display: none;
+    } */
+    .singlenews_content{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+    }
+    .multienews_content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+  }
