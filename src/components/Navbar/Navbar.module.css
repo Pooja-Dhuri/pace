@@ -6,3 +6,22 @@
 .bottomline{
     border: 2px solid black;
 }
+.menulist{
+    /* position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease; */
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .menulist{
+        display: block;
+    }
+    /* .navbarlist{
+        display: none;
+    } */
+  }
